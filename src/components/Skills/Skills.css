@@ -1,0 +1,7 @@
+section {
+  width: 100vw;
+  height: 400px;
+  background-color: #5790b382;
+  display: flex;
+  justify-content: space-around;
+}
