@@ -1,22 +1,26 @@
 import Skill from '../Skill/Skill';
+import arduino from '../../assets/img/arduino.svg';
+import php from '../../assets/img/php.png';
+import javascript from '../../assets/img/js.png';
+import docker from '../../assets/img/docker.png';
 import './Skills.css';
 
 const Skills = () => {
   const skills = [
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+      image: javascript,
       name: "Javascript"
     },
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+      image: php,
       name: "PHP"
     },
     {
-      image: "https://d31ezp3r8jwmks.cloudfront.net/P4LMkQbCoYdT6NiE8ZjETEbw",
+      image: docker,
       name: "Docker"
     },
     {
-      image: "https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg",
+      image: arduino,
       name: "Arduino"
     },
   ];

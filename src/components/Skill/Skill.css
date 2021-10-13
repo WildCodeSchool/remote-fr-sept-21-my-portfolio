@@ -1,4 +1,21 @@
+.Skill-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px; 
+  padding: 20px;
+  border-radius: 5%;
+}
+
 .Skill-card img {
-  height: 100px;
-  width: 100px;
+  width: 100%;
+}
+
+.Skill-card svg {
+  height: 60px;
+}
+
+.pink {
+  color: pink;
 }
